@@ -1,0 +1,9 @@
+static: public
+viewports:
+  - { name: desktop, width: 1280, height: 800 }
+  - { name: phone, width: 390, height: 844 }
+pages:
+  - name: home
+    path: /
+    waitFor: [h1]
+    areas: { heading: h1, sum: "#sum" }
