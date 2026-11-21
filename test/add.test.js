@@ -5,3 +5,7 @@ import { add } from "../src/add.js";
 test("add sums two numbers", () => {
   assert.equal(add(2, 3), 5);
 });
+
+test("add handles negatives", () => {
+  assert.equal(add(-2, 3), 1);
+});
