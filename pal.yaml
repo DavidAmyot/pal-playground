@@ -1,0 +1,3 @@
+# Read by pald from the default branch only.
+space: personal
+test: node --test
